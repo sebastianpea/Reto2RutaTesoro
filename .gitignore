@@ -1,0 +1,16 @@
+## Ignorar carpetas de compilación y temporales de .NET
+bin/
+obj/
+
+## Ignorar configuración y caches internos de Visual Studio (aquí es donde se guardan rutas absolutas locales)
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Archivos temporales del sistema
+[Tt]emp/
+[Tt]mp/
+.DS_Store
+Thumbs.db
