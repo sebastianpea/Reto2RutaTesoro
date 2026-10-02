@@ -15,10 +15,6 @@ public class Nodo
     // Referencia al siguiente nodo en la ruta
     public Nodo? Siguiente { get; set; }
 
-    /// <summary>
-    /// Constructor para inicializar una ubicación con sus datos obligatorios.
-    /// El apuntador Siguiente se inicializa en null por defecto.
-    /// </summary>
     public Nodo(int id, string nombre, string pista, int peligro)
     {
         Id = id;
